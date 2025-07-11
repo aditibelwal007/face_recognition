@@ -1,5 +1,3 @@
-# face_recognition
-Face recognition is a computer vision technique used to identify or verify individuals by analyzing and comparing facial features from images or video frames. With Python, it becomes accessible and efficient using libraries like OpenCV, face_recognition, and dlib.
 
 # 👁️‍🗨️ Face Recognition Using Python
 
@@ -45,6 +43,8 @@ bash
 pip install face_recognition opencv-python numpy
 
 ```
+---
+
 ⚙️ Usage
 Place your known face images in the project folder (e.g., person.jpg).
 
@@ -58,6 +58,8 @@ Edit
 python face_recognition_live.py
 Press Q to quit the webcam window.
 
+---
+
 🧠 How It Works
 Loads a known image and encodes it.
 
@@ -68,6 +70,8 @@ Detects faces and encodes them in real-time.
 Compares detected faces with known encodings.
 
 Displays the name if matched, otherwise "Unknown".
+
+----
 
 🤝 Contributing
 Contributions are welcome and appreciated! Here's how you can contribute:
@@ -81,6 +85,8 @@ Commit your changes (git commit -m 'Add your feature')
 Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
+
+---
 
 📬 Contact
 Feel free to reach out with suggestions or questions:
